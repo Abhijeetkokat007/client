@@ -1,0 +1,17 @@
+.card-data{
+    box-shadow: 0 2px 20px 0 rgb(82, 82, 82);
+    width: 300px;
+    margin: 40px;
+    padding: 20px;
+}
+.img-data{
+    width: 300px;
+    height: 300px;
+
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
