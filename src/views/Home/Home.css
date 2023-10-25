@@ -3,10 +3,11 @@
     width: 300px;
     margin: 40px;
     padding: 20px;
+    position: relative;
 }
 .img-data{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 
 }
 
@@ -14,4 +15,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.btn-more{
+position: absolute;
+bottom: 15px;
+background-color: chocolate;
+border: none;
+padding:5px 10px;
+color: white;
+cursor: pointer;
+}
+.btn-more:hover{
+background-color: rgb(49, 48, 48);
+}
+.price{
+    margin-bottom: 30px;
 }

@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './views/Home/Home';
 import {createBrowserRouter, RouterProvider} from  'react-router-dom';
-import AddProduct from './views/Home/AddProduct/AddProduct';
-
+import AddProduct from './views/AddProduct/AddProduct';
+import EditProduct from './views/EditProduct/EditProduct';
+import MoreDetails from './views/MoreDetails/MoreDetails';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -13,8 +14,12 @@ const router = createBrowserRouter([
     element: <Home/>
   },
   {
-    path: '/AddProduct',
-    element: <AddProduct/>
+    path: '/EditProduct/:_id',
+    element: <EditProduct/>
+  },
+  {
+    path: '/MoreDetails/:_id',
+    element: <MoreDetails/>
   }
 ]);
 
